@@ -1,36 +1,20 @@
 package defaultPackage;
-import java.lang.Character;
 
 public class Blackjack {
 
 	public static void main(String[] args) {
 
-//		int int1 = 19;
-//		int int2 = 18;
-//		int int3 = 18;
-//		
-//		System.out.println(blackjack(int1, int2));
-//		System.out.println(uniqueSum(int1, int2, int3));
-//
-//		int temperature = 95;
-//		boolean isSummer = true;
-//		
-//		System.out.println(tooHot(temperature, isSummer));
-		StringBuffer sb = new StringBuffer();
-	    sb.append(Character.toChars(127467));
-	    sb.append(Character.toChars(127479));
-	    System.out.println(sb);
-	    
-	    System.out.println("NEW THING");
-	    
-	    int[] codepoints = {0x1F1EB, 0x1F1F7};
-	    String s = new String(codepoints, 0, codepoints.length);
-	    
-	    System.out.print("\"");
-	    for (char ch : s.toCharArray()) {
-	        System.out.printf("\\u%04X", (int)ch);
-	    }
-	    System.out.println("\"");
+		int int1 = 19;
+		int int2 = 18;
+		int int3 = 18;
+		
+		System.out.println(blackjack(int1, int2));
+		System.out.println(uniqueSum(int1, int2, int3));
+
+		int temperature = 95;
+		boolean isSummer = true;
+		
+		System.out.println(tooHot(temperature, isSummer));
 		
 		
 	}
